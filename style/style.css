@@ -1,145 +1,73 @@
-.text{
-    position: absolute;
-    width: 579px;
-    height: 172px;
-    left: 40px;
-    top: 356px;
+body{
+    margin: 0px;
+    font-family: "Open Sans";
 
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 72px;
-    line-height: 98px;
-
-    color: #000000;
 }
-.background{
+ul,li{
+    display: block;
+}
+.container{
+    width: 1381px;
+    margin: 0 auto;
+}
 
-    position: relative;
-    width: 1920px;
-    height: 3240px;
+.header{
+    background: url("../images/img1blurred.jpg") no-repeat  top / cover ;
+}
 
+header a{
+    color: #ffff;
+}
+.menu{
+    display: flex;
+    margin-top: 25px;
+    margin-left: auto;
+    letter-spacing: 0.09em;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 24px;
+
+}
+.menu li{
+    margin-right: 51px;
+}
+.nav{
+    padding-top: 18px;
+    display: flex;
+}
+.mainContent{
+    width: 619px;
+    height: 454px;
+    padding-top: 227px;
+    padding-bottom: 356px;
+
+}
+.mainContent li a{
+}
+.mainContent h1{
+    font-size: 72px;
+    font-weight: bold;
+    color: #ffff;
+}
+.mainContent h2{
+    font-size: 45px;
+    color: #ffff;
+}
+.border{
+    height: 12px;
+    background: #353535 no-repeat  top / cover;
+}
+
+.about{
+    margin: 0px;
     background: radial-gradient(137.79% 343.18% at 0% -1.39%, #740608 0%, #0B0B0D 100%);
 }
-.logo{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    left: 40px;
-    top: 14px;
-}
-.logoName{
-
-    position: absolute;
-    width: 218px;
-    height: 52px;
-    left: 120px;
-    top: 25px;
-
+.about h1{
+    margin: 0px;
+    padding-top: 24px;
+    padding-left: 542px;
     font-family: Open Sans;
-    font-style: normal;
     font-weight: bold;
-    font-size: 30px;
-    line-height: 41px;
-
-    color: #FFFFFF;
-}
-.home{
-    position: absolute;
-    width: 73px;
-    height: 31px;
-    left: 1248px;
-    top: 53px;
-
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 33px;
-
-    color: #FFFDFD;
-}
-.games{
-    position: absolute;
-    width: 84px;
-    height: 31px;
-    left: 1372px;
-    top: 53px;
-
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 33px;
-
-    color: #FFFDFD;
-}
-
-.aboutUs{
-    position: absolute;
-    width: 102px;
-    height: 31px;
-    left: 1507px;
-    top: 53px;
-
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 33px;
-
-    color: #FFFDFD;
-}
-.contacts{
-    position: absolute;
-    width: 102px;
-    height: 31px;
-    left: 1660px;
-    top: 53px;
-
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 33px;
-
-    color: #FFFDFD;
-}
-.paragraph{
-    position: absolute;
-    width: 619px;
-    height: 254px;
-    left: 40px;
-    top: 528px;
-
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 45px;
-    line-height: 61px;
-
-    color: #000000;
-}
-.btn1{
-    position: absolute;
-    width: 298px;
-    height: 100px;
-    left: 40px;
-    top: 759px;
-}
-.img1{
-    position: absolute;
-    width: 1132px;
-    height: 840px;
-    left: 742px;
-    top: 176px;
-}
-.boarder{
-    position: absolute;
-    width: 1920px;
-    height: 24px;
-    left: 13px;
-    top: 1075px;
-
-    background: #353535;
+    font-size: 64px;
 }
