@@ -4,22 +4,31 @@ body {
     padding: 0px;
     background: url("../img/backgroundGames.png") no-repeat top center / cover;
 }
+.menu {
+    top: -50px;
+    margin-left: 1400px;
+    position: relative;
+    margin-right: 75px;
+    margin-top: 40px;
+    display: flex;
+}
+
 .main {
+    font-family: "Open Sans";
     color: white;
     text-decoration: none;
-    padding-left: 10px;
+    padding-left: 40px;
+    font-size: 15px;
 }
+
 .logo {
+    width: 40px;
+    height: 40px;
     top: 10px;
     padding: 0px;
     margin-left: 200px;
     position: relative;
 }
-.menu {
-     top: -50px;
-     margin-left: 1500px;
-     position: relative;
- }
 .games{
     font-family: Open Sans;
     font-style: normal;

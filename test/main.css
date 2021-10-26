@@ -24,18 +24,25 @@ body {
 }
 
 .menu {
-    top: -40px;
-    margin-left: 1500px;
+    top: -50px;
+    margin-left: 1400px;
     position: relative;
+    margin-right: 75px;
+    margin-top: 40px;
+    display: flex;
 }
 
 .main {
+    font-family: "Open Sans";
     color: white;
     text-decoration: none;
-    padding-left: 10px;
+    padding-left: 40px;
+    font-size: 15px;
 }
 
 .logo {
+    width: 40px;
+    height: 40px;
     top: 10px;
     padding: 0px;
     margin-left: 200px;
@@ -46,12 +53,13 @@ body {
     position: relative;
     margin-left: 200px;
     top: 150px;
-    font-size: 27px;
+    font-size: 30px;
 }
 
 .name {
+    margin-top: 150px;
     position: relative;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .mainInfo {
@@ -124,6 +132,7 @@ body {
     color: black;
     margin-left: 45%;
     font-weight: bold;
+    margin-bottom: 50px;
 }
 
 .NikitaArman {
