@@ -1,0 +1,225 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(175,35,35);; /* Все браузеры*/
+    background: -moz-linear-gradient(left,  rgba(175,35,35,1)0%, rgba(43,3,3,1) 70%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(175,35,35,1)0%, rgba(43,3,3,1) 70%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(175,35,35,1)0%, rgba(43,3,3,1) 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#131c27', endColorstr='#412513',GradientType=1 ); /* IE6-9 */
+    
+}
+
+
+.container {
+    padding: 0px;
+}
+
+.Home {
+    padding: 0px;
+    margin: 0px;
+    width: 1900px;
+    height: 1070px;
+    background-image: url(img/backgroundHome.jpg);
+}
+
+.menu {
+    top: -50px;
+    margin-left: 1500px;
+    position: relative;
+}
+
+.main {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.logo {
+    top: 10px;
+    padding: 0px;
+    margin-left: 200px;
+    position: relative;
+}
+
+.info {
+    position: relative;
+    margin-left: 200px;
+    top: 150px;
+    font-size: 27px;
+}
+
+.name {
+    position: relative;
+    font-size: 40px;
+}
+
+.mainInfo {
+    font-family: 'Open Sans';
+    margin-left: 5px;
+}
+
+.mainButton {
+    width: 240px;
+    height: 70px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    background-color: black;
+    background-color: black;
+    border-radius: 35px;
+    border: 1px solid black;
+    font: bold 30px/70px 'Open Sans';
+    position: relative;
+    outline: none;
+}
+.mainButton:before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background: #8a0a0a;
+    z-index: -1;
+    border-radius: 50px;
+    box-shadow: inset 0 1px 2px #8a0a0a;
+  }
+.mainButton:hover {
+    background: linear-gradient(#8a0a0a, #8a0a0a);
+    box-shadow:
+      inset 0 1px 0 #8a0a0a,
+      inset 0 2px 0 #8a0a0a,
+      inset 0 3px 0 #8a0a0a,
+      inset 0 5px 0 #8a0a0a,
+      inset 1px 0 3px #8a0a0a,
+      inset -1px 0 3px #8a0a0a,
+      inset 0 -2px 2px #8a0a0a,
+      0 0 3px rgba(0, 0, 0, 0.24);
+}
+.mainButton:active {
+    background: linear-gradient(#8a0a0a, #8a0a0a);
+    box-shadow: inset 0 3px 7px #8a0a0a;
+    padding: 1px 0 0 1px;
+}
+
+.break {
+    position: relative;
+    border: none; 
+    color: #353535; 
+    background-color: #353535; 
+    height: 10px; 
+    top: -10px;
+}
+
+.aboutUs {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nameAboutUs {
+    font-family: 'Open Sans';
+    font-size: 64px;
+    color: black;
+    margin-left: 45%;
+    font-weight: bold;
+}
+
+.NikitaArman {
+    position: relative;
+    margin-left: 60%;
+    top: -460px;
+    font-size: 36px;
+}
+
+.AsatDamir{
+    font-size: 36px;
+    margin-left: 15%;
+}
+
+.Asat {
+    padding: 50px;
+}
+
+.Damir {
+    padding: 50px;
+}
+
+.Nikita {
+    padding: 50px;
+}
+
+.Arman {
+    padding: 50px;
+}
+
+.hernya {
+    margin-left: 70px;
+    width: 300px;
+}
+
+.design {
+    color: black;
+    font-weight: bold;
+    margin-left: 80px;
+}
+
+.figma {
+    margin-left: 70px;
+    width: 300px;
+    padding-top: 40px;
+}
+
+.ps {
+    width: 100px;
+    margin-left: 70px;
+}
+
+.google {
+    width: 190px;
+    height: 100px;
+}
+
+.Html {
+    width: 150px;
+    margin-left: 50px;
+    top: 70px;
+    position: relative;
+    
+    
+}
+
+.JS {
+    width: 150px;
+    top: 70px;
+    left: 70px;
+    position: relative;
+    
+}
+
+.Css {
+    width: 150px;
+    margin-left: 50px;
+    top: 80px;
+    position: relative;
+}
+
+.break1 {
+    position: relative;
+    border: none; 
+    color: #353535; 
+    background-color: #353535; 
+    height: 10px; 
+    top: -150px;
+}
+
+.contacs {
+    top: -150px;
+    position: relative;
+}
+
+.numbers {
+    font-size: 36px;
+    margin-left: 15%;
+}
