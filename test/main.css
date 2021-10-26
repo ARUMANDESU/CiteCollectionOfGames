@@ -18,7 +18,7 @@ body {
 .Home {
     padding: 0px;
     margin: 0px;
-    width: 1900px;
+    width: 1920px;
     height: 1070px;
     background-image: url(img/backgroundHome.jpg);
 }
@@ -223,3 +223,8 @@ body {
     font-size: 36px;
     margin-left: 15%;
 }
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
