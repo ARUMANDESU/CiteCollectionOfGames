@@ -2,7 +2,8 @@ body {
     padding: 0px;
     margin: 0px;
     color: white;
-    background: url('../../img/backgroundGame.jpg') no-repeat top center / cover;
+    background: url('../../img/263487 (1).jpg') no-repeat top center / cover;
+
 }
 
 ::-webkit-scrollbar {
@@ -91,21 +92,21 @@ body {
 }
 
 .game{
-    width: 400px;
-    height: 300px;
-    margin-left: 50px;
+    width: 500px;
+    height: 500px;
+    margin-right: 50px;
     margin-bottom: 50px;
 }
 .container2{
     margin-top: 200px;
-    width: 1520px;
-    margin-left: 285px;
+    width: 1920px;
     display: flex;
     flex-wrap: wrap;
 }
 .img{
-    width: 400px;
-    height: 300px;
+    margin-left: 200px ;
+    width: 500px;
+    height: 500px;
 }
 .video{
     margin-left: 210px;
