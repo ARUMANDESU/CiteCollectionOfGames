@@ -249,7 +249,7 @@ body {
     background: #353535;
     width: 200px;
     height: 300px;
-    margin-left: 50px;
+    margin-left: 150px;
     margin-bottom: 50px;
 }
 
@@ -264,14 +264,14 @@ body {
 .mainButton1 img{
     width: 200px;
     height: 183px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .mainButton1 h3{
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 23px;
     line-height: 49px;
     margin-top: -120px;
     margin-bottom: 100px;
