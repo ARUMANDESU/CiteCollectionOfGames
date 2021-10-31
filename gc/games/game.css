@@ -2,7 +2,7 @@ body {
     padding: 0px;
     margin: 0px;
     color: white;
-    background: url('../../img/263487 (1).jpg') no-repeat top center / cover;
+    background: url('../../img/backgroundGame.jpg') no-repeat top center / cover;
 
 }
 
@@ -50,7 +50,7 @@ body {
 }
 
 .information {
-    margin-top: 100px;
+    margin-top: 70px;   
     margin-left: 400px;
 }
 
@@ -61,29 +61,30 @@ body {
 
 .titleGame {
     font-size: 72px;
-    margin-left: 400px;
-    top: -350px;
+    margin-left: 850px;
+    top: -500px;
     position: relative;
 }
 
 .description {
     margin-left: 900px;
     font-size: 50px;
-    top: -290px;
+    top: -350px;
     position: relative;
 }
 
 
 .mainDescription {
-    margin-left: 320px;
-    font-size: 30px;
-    top: -290px;
+    margin-left: 10px;
+    font-size: 40px;
+    top: -350px;
     position: relative;
+    text-indent: 25px;
 }
 
 .titleGalary {
     margin-left: 500px;
-    top: -130px;
+    top: -250px;
     font-family: "Open Sans";
     color: white;
     text-decoration: none;
