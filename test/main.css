@@ -25,7 +25,7 @@ body {
 
 .menu {
     top: -50px;
-    margin-left: 1400px;
+    margin-left: 1000px;
     position: relative;
     margin-right: 75px;
     margin-top: 40px;
@@ -48,7 +48,14 @@ body {
     margin-left: 200px;
     position: relative;
 }
-
+.form-search {
+    margin-left: 250px;
+    display: inline-block;
+    border-bottom: 1px solid;
+}
+.form-search input {
+    all: unset;
+}
 .info {
     position: relative;
     margin-left: 200px;
@@ -120,48 +127,15 @@ body {
     height: 10px; 
     top: -10px;
 }
-
-.aboutUs {
-    padding: 0px;
-    margin: 0px;
-}
-
 .nameAboutUs {
     font-family: 'Open Sans';
     font-size: 64px;
-    color: black;
     margin-left: 45%;
     font-weight: bold;
     margin-bottom: 50px;
+    color: white;
 }
 
-.NikitaArman {
-    position: relative;
-    margin-left: 60%;
-    top: -460px;
-    font-size: 36px;
-}
-
-.AsatDamir{
-    font-size: 36px;
-    margin-left: 15%;
-}
-
-.Asat {
-    padding: 50px;
-}
-
-.Damir {
-    padding: 50px;
-}
-
-.Nikita {
-    padding: 50px;
-}
-
-.Arman {
-    padding: 50px;
-}
 
 .hernya {
     margin-left: 70px;
@@ -174,58 +148,21 @@ body {
     margin-left: 80px;
 }
 
-.figma {
-    margin-left: 70px;
-    width: 300px;
-    padding-top: 40px;
-}
 
-.ps {
-    width: 100px;
-    margin-left: 70px;
-}
-
-.google {
-    width: 190px;
-    height: 100px;
-}
-
-.Html {
-    width: 150px;
-    margin-left: 50px;
-    top: 70px;
-    position: relative;
-    
-    
-}
-
-.JS {
-    width: 150px;
-    top: 70px;
-    left: 70px;
-    position: relative;
-    
-}
-
-.Css {
-    width: 150px;
-    margin-left: 50px;
-    top: 80px;
-    position: relative;
-}
 
 .break1 {
     position: relative;
     border: none; 
     color: #353535; 
     background-color: #353535; 
-    height: 10px; 
-    top: -150px;
+    height: 10px;
+    margin:0px;
+
 }
 
 .contacs {
-    top: -150px;
     position: relative;
+
 }
 
 .numbers {

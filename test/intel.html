@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="games/gamesStyle.css"
     <script src="main.js"></script>
     <title>Game Catalog</title>
     <link rel="shortcut icon" href="img/logologo.ico" type="image/x-icon">
@@ -16,7 +17,13 @@
             <a href="intel.html"><img src="img/logologo.png" alt="" class="logo"></a>
             <div class="menu">
                 <a href="intel.html" class="main">Home</a> <a href="games/games.html" class="main">Games</a> <a href="#aboutUs" class="main">About Us</a> <a href="#contacs" class="main">Contacs</a>
+                <form action="/search/" target="_blank" class="form-search">
+                    <input type="hidden" name="searchid" value="808327">
+                    <input type="search" name="text" required placeholder="Search">
+                    <input type="submit" value="&#128269;">
+                </form>
             </div>
+
             <div class="info">
                 <h1 class="name">GAME CATALOG</h1>
                 <p class="mainInfo">
@@ -29,42 +36,47 @@
             </div>
             
         </div>
-        <hr class="break">
-        
-        <div class="aboutUs">
-            <a href="" name = "aboutUs" ></a>
-            <h1 class="nameAboutUs">About Us</h1>
-            <div class="AsatDamir">
-                <span class="Asat">K.Asatbek</span> <span class="Damir">K.Damir</span><br>
-                <svg width="380" height="94" viewBox="0 0 410 94" fill="none" xmlns="http://www.w3.org/2000/svg" class="hernya">
-                    <rect width="9" height="52" fill="black"/>
-                    <rect x="401" width="9" height="52" fill="black"/>
-                    <rect x="200" y="42" width="9" height="52" fill="black"/>
-                    <rect y="42" width="406" height="10" fill="black"/>
-                </svg> <br>
-                <span class="design">Design of web site</span><br>
-                <img src="img/OPHITHQvyXg.jpg" alt="" class="figma"><br>
-                <img src="img/ts6N4xJOvTc.jpg" alt="" class="ps">
-                <img src="img/1Pw3MvsQpOs.jpg" alt="" class="google">
-            </div > 
-            <div class="NikitaArman">
-                <span class="Nikita">M.Nikita</span> <span class="Arman">Z.Arman</span><br>
-                <img src="img/O8Sfcag7lPE.jpg" alt="" class="Html">
-                <img src="img/cXdVevW_axg.jpg" alt="" class="JS"><br>
-                <img src="img/8fQuPaxmSBs.jpg" alt="" class="Css">
-            </div>
-
-        </div>
         <hr class="break1">
+        <section>
+            <h2 class="games">Games</h2>
+            <div class="container2">
+                <div class="game">
+                    <button class="mainButton1" onclick = "goGames()">
+                        <img src="../img/callOfDuty.jpg" alt="callofduty">
+                        <h3>Call Of Duty</h3>
+                    </button>
+                </div>
+                <div class="game">
+                    <button class="mainButton1" onclick = "goGames()">
+                        <img src="../img/callOfDuty.jpg" alt="callofduty">
+                        <h3>Call Of Duty</h3>
+                    </button>
+                </div>
+                <div class="game">
+                    <button class="mainButton1" onclick = "goGames()">
+                        <img src="../img/callOfDuty.jpg" alt="callofduty">
+                        <h3>Call Of Duty</h3>
+                    </button>
+                </div>
+                <div class="game">
+                    <button class="mainButton1" onclick = "goGames()">
+                        <img src="../img/callOfDuty.jpg" alt="callofduty">
+                        <h3>Call Of Duty</h3>
+                    </button>
+                </div>
 
+
+            </div>
+        </section>
+        <hr class="break">
         <div class="contacs">
             <a href="" name = "contacs" ></a>
-            <span class="nameAboutUs">Contacs</span><br>
+            <span class="nameAboutUs">Contacts</span><br>
             <p class="numbers">
-                M.Nikita:  +7(707)678-04-05 <br>
-                Z.Arman:   +7(707)269-07-74 <br>
-                K.Asatbek: +7(xxx)xxx-xx-xx <br>
-                K.Damir:   +7(xxx)xxx-xx-xx
+                M.Nikita:  ... <br>
+                Z.Arman:    <br>
+                K.Asatbek:  <br>
+                K.Damir:
             </p>
         </div>
     </div>
