@@ -94,7 +94,7 @@ body {
 
 .game{
     width: 500px;
-    height: 500px;
+    height: 250px;
     margin-right: 50px;
     margin-bottom: 50px;
 }
@@ -107,7 +107,7 @@ body {
 .img{
     margin-left: 200px ;
     width: 500px;
-    height: 500px;
+    height: 250px;
 }
 .video{
     margin-left: 210px;
