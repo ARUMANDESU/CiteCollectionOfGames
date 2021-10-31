@@ -61,13 +61,13 @@ body {
 
 .titleGame {
     font-size: 72px;
-    margin-left: 850px;
+    margin-left: 650px;
     top: -500px;
     position: relative;
 }
 
 .description {
-    margin-left: 900px;
+    margin-left: 650px;
     font-size: 50px;
     top: -350px;
     position: relative;
